@@ -1,8 +1,17 @@
-var c = function(myCelsius){
-	return myCelsius * (9 / 5) + 32};
+var convertGal = function(myGal){
+	return myGal * 3.78541};
 
 
-var myCelsius = parseInt(prompt("What is the temperature in Celsius?"));
+var myGal = parseInt(prompt("How many gallons?"));
 
 
-alert("The Temp in F is " + c(myCelsius) + ".");
+alert("The amount of Liters you have is " + convertGal(myGal) + "liter(s).");
+
+var convertOz = function(myOz){
+	return myOz * 29.5735};
+
+
+var myOz = parseInt(prompt("How many ounces?"));
+
+
+alert("The amount of Milliliters you have is " + convertOz(myOz) + "milliliter(s).");
